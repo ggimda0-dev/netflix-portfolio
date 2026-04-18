@@ -17,9 +17,7 @@ h4{
 .jc-box p{
     opacity: .7;
 }
-.jc-box .jc-1{
-    background: url();
-}
+
 @media (max-width:991px){
    .join-card{
         grid-template-columns: 1fr;   
