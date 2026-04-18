@@ -1,0 +1,33 @@
+.accordion{
+    padding-top: 2rem;
+}
+.accordion-title{
+    display: block;
+    background-color: #333;
+    width: 100%;
+    padding: 2rem;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.accordion-item{
+    margin-bottom: .75rem;
+}
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .8s ease;
+    background: #4d4d4d;
+
+}
+.accordion-item.active .accordion-content{
+    max-height: 40rem; /* 원하는 최대 높이로 설정 */
+}
+.accordion-text{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.question-email{
+    margin: 7rem 0;
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+.banner-wrap{
+    flex-direction: column;
+    justify-content: center;
+    min-height: 60vh;
+}
+.b-bg{
+    background: 
+    linear-gradient(360deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url(../../assets/KR-ko-20260309-TRIFECTA-perspective_7aba4b14-9949-4c0c-bfbe-61eebc418a11_large.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.b-font{
+    text-align: center;
+}
+.b-font .second-text{
+    padding: .8rem 0 3rem 0;
+}
+h2{
+    font-size: 5rem;
+}
+.email-ad{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+.email-ad input{
+    width: 50rem;
+    color: #fff;
+    margin-right: 1rem;
+    padding: 3rem 2rem 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #ffffff80;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 1.6rem;
+}
+.start-btn{
+    background-color: #CD0707;
+    padding: 1.4rem 2.8rem;
+    border-radius: .4rem;
+    font-size: 1.6rem;
+}
+.e-box{
+    position: relative;
+}
+.email-font{
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .6;
+    transition: 0.3s;
+    pointer-events: none;
+}
+.e-box input:focus + label,
+.e-box input:not(:placeholder-shown) + label{
+    top: 2rem;
+    font-size: 1.3rem;
+}
+
+@media (max-width:991px){
+    h2{
+        font-size: 3rem;
+    }   
+    .email-ad input{
+        width: 30rem;
+    }
+    .b-bg{
+        height: 70vh;
+    }
+}

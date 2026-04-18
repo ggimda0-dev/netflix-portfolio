@@ -1,0 +1,30 @@
+.join-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.6rem;
+    padding-top: 2rem;
+}
+.join-card .jc-box{
+    background: linear-gradient(140deg, rgba(31, 40, 77, 1),rgb(35, 10, 37));
+    padding: 3rem;
+    border-radius: 2rem;
+    min-height: 26rem;
+}
+h4{
+    font-size: 2rem;
+    padding-bottom: 1.6rem;
+}
+.jc-box p{
+    opacity: .7;
+}
+.jc-box .jc-1{
+    background: url();
+}
+@media (max-width:991px){
+   .join-card{
+        grid-template-columns: 1fr;   
+    } 
+    .join-card .jc-box{
+        min-height: 22rem;
+    }
+}
