@@ -54,7 +54,7 @@ const Contents = () => {
               <p>가장 경제적인 광고형 멤버십을 이용해 보세요.</p>
             </div>
             <div className='see-btn'>
-              <a href="">자세히 알아보기</a>
+              <a href="/">자세히 알아보기</a>
             </div>
           </div>
         </div>

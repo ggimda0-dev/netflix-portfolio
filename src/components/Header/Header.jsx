@@ -20,7 +20,7 @@ const Header = () => {
                       <option value="english">English</option>
                     </select>
                   </div>
-                  <a href="" className='n-btn'>로그인</a>
+                  <a href="/" className='n-btn'>로그인</a>
                 </div>
               </div>
             </div>
